@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],
+    "skipLibCheck": true,
+    
+    /* Strictness & Interop */
+    "strict": true,
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+
+    /* Build & Output */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Specialized Checking */
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedSideEffectImports": true,
+    
+    /* React Support (If needed) */
+    "jsx": "react-jsx"
+  }
+}
